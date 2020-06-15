@@ -50,7 +50,7 @@ Now as we have published Desktop and Applications in previous step, now we will 
    ![ws name.](media/48.png)
 
 
-5. Your **Desktop Session** will launch. 
+5. Your virtual Desktop will launch and it should be ready to use. 
 
    ![ws name.](media/49.png)
    
