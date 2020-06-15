@@ -2,29 +2,29 @@
  
 Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop environments. Each host pool can contain an app group that users can interact with as they would on a physical desktop. 
 
- 1. Login to the Azure portal using the credentials in the Lab Environments section. 
+1. Login to the Azure portal using the credentials in the Lab Environments section. 
 
- 2. In the search bar, search for ‘Windows Virtual Desktop” and you will see a resource that shows up in the same name. Click on it. 
+2. In the search bar, search for ‘Windows Virtual Desktop” and you will see a resource that shows up in the same name. Click on it. 
 
     ![ws name.](media/1.png)
  
 
- 3. You will be directed towards the Windows Virtual Desktop(Hereafter referred as WVD) management window.  
+3. You will be directed towards the Windows Virtual Desktop(Hereafter referred as WVD) management window.  
 
     ![ws name.](media/2.png)
 
 
- 4. In the management tab, select **Host pools**. 
+4. In the management tab, select **Host pools**. 
 
     ![ws name.](media/3.png)
 
 
- 5. Click on Add to add new Host Pool. 
+5. Click on Add to add new Host Pool. 
 
     ![ws name.](media/4.png)
 
 
- 6. Creating a Host Pool is divided into multiple sections. The first one is the Basic section. All the fields in this section are explained below along with the values: 
+6. Creating a Host Pool is divided into multiple sections. The first one is the Basic section. All the fields in this section are explained below along with the values: 
 
     ![ws name.](media/5.png)
  
@@ -39,12 +39,12 @@ Host pools are a collection of one or more identical virtual machines within Win
 
      **Location**: Choose the location of the pre-created resource Group
 
-     **B.** Host Pool Type – Defines the type of host pool. 
+   **B.** Host Pool Type – Defines the type of host pool. 
 
-  1. **Host pool type**: Pooled
+   1. **Host pool type**: Pooled
  
 
-         Host Pools are of 2 types:
+          Host Pools are of 2 types:
               1.	Pooled
               2.	Personal
               Pooled is used to share the same Session Host (Virtual Machine) resources among multiple users, while Personal uses a dedicated   Session host of individual user.
@@ -73,11 +73,11 @@ Host pools are a collection of one or more identical virtual machines within Win
    
 
    
- 7. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool. 
+7. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool. 
 
     ![ws name.](media/9.png)
 
- 8. Now a long list of parameter appears. These can be categorized into three: Session Host specifications, Network and Security, Domain and Administrator account. 
+8. Now a long list of parameter appears. These can be categorized into three: Session Host specifications, Network and Security, Domain and Administrator account. 
 
     A. Session Host Specifications 
 
@@ -134,9 +134,10 @@ Host pools are a collection of one or more identical virtual machines within Win
 
      **Confirm Password**: Confirm the password from the ‘Lab Environment’ Tab
    
- 9. Click on Next:Workspace to proceed. 
 
- 10. In the Workspace section, we need to specify if we need to register the default application group with a workspace. 
+9. Click on Next:Workspace to proceed. 
+
+10. In the Workspace section, we need to specify if we need to register the default application group with a workspace. 
 
     ![ws name.](media/13.png)
     
@@ -145,7 +146,7 @@ Host pools are a collection of one or more identical virtual machines within Win
 
     **To this workspace:** Create new
     
- 11. Once you click the **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
+11. Once you click the **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
 
     ![ws name.](media/14.png)
 
@@ -154,17 +155,17 @@ Host pools are a collection of one or more identical virtual machines within Win
 
      Click **OK** 
 
- 12. Once we fill up all the parameters, click on the  **Review + create** button on the bottom left corner. 
+12. Once we fill up all the parameters, click on the  **Review + create** button on the bottom left corner. 
 
     ![ws name.](media/15.png)
 
 
- 13. The last window helps us verify if the parameters we filled are correct. If yes, click on Create to initiate the deployment. 
+13. The last window helps us verify if the parameters we filled are correct. If yes, click on Create to initiate the deployment. 
 
     ![ws name.](media/16.png)
 
 
- 14. The deployment starts, wait until the deployment gets succeeded.  
+14. The deployment starts, wait until the deployment gets succeeded.  
 
     ![ws name.](media/17.png)
 
@@ -174,14 +175,14 @@ Host pools are a collection of one or more identical virtual machines within Win
  
      Click on **Go to Resource**.
 
- 15. You will see that the **Hostpool WVD-HP-01** is created with 2 session hosts in it, and a default application group (of type Desktop). 
+15. You will see that the **Hostpool WVD-HP-01** is created with 2 session hosts in it, and a default application group (of type Desktop). 
 
      Click on **Session Hosts** 
 
     ![ws name.](media/19.png)
 
 
- 16. Notice the Session Hosts created, with a name concatenating the Name Prefix and increment number. 
+16. Notice the Session Hosts created, with a name concatenating the Name Prefix and increment number. 
 
 
     ![ws name.](media/20.png)
