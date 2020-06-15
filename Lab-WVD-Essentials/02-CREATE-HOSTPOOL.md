@@ -44,10 +44,10 @@ Host pools are a collection of one or more identical virtual machines within Win
       1. **Host pool type**: Pooled
  
 
-             Host Pools are of 2 types:
-              1.	Pooled
-              2.	Personal
-              Pooled is used to share the same Session Host (Virtual Machine) resources among multiple users, while Personal uses a dedicated   Session host of individual user.
+        * Host Pools are of 2 types:
+             1.	Pooled
+             2.	Personal
+        * Pooled is used to share the same Session Host (Virtual Machine) resources among multiple users, while Personal uses a dedicated   Session host of individual user.
 
    
     
@@ -56,7 +56,7 @@ Host pools are a collection of one or more identical virtual machines within Win
       2. **Max session Limit**: 5
 
 
-             Max session Limit limits the simultaneous number of users on the same session host.
+          * Max session Limit limits the simultaneous number of users on the same session host.
   
     
    
