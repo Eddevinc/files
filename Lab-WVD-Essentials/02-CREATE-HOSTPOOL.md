@@ -75,12 +75,9 @@ Host pools are a collection of one or more identical virtual machines within Win
 
 8. Now a long list of parameter appears. These can be categorized into three: Session Host specifications, Network and Security, Domain and Administrator account. 
 
-    A. Session Host Specifications 
+    **A. Session Host Specifications 
 
       In this section, we provide the details of the VMs to be created as session Hosts. 
-   
-    ![ws name.](media/10.png)
-   
 
       * Resource Group: Choose the default pre-created Resource Group
 
@@ -99,12 +96,11 @@ Host pools are a collection of one or more identical virtual machines within Win
       * OS disk type: Standard SSD 
 
       * Use managed disks: Yes 
+      
+      ![ws name.](media/10.png)
     
    
     **B. Network and Security** 
- 
-      ![ws name.](media/11.png)
-   
   
       * Virtual Network: Default value
 
@@ -115,12 +111,12 @@ Host pools are a collection of one or more identical virtual machines within Win
       * Network security Group: Default value
 
       * Public inbound ports: Default value
+      
+      ![ws name.](media/11.png)
+   
  
  
     **C. Domain and Administrator account.** 
-
-      ![ws name.](media/12.png)
- 
 
       * Specify Domain or Unit: No 
 
@@ -128,19 +124,20 @@ Host pools are a collection of one or more identical virtual machines within Win
 
       * Password: Provide the password from the ‘Lab Environment’ Tab
 
-      * Confirm Password: Confirm the password from the ‘Lab Environment’ Tab
+      * Confirm Password: Confirm the password from the ‘Lab Environment’ Tab.
+       
+       ![ws name.](media/12.png)
    
 
 9. Click on Next:Workspace to proceed. 
 
-10. In the Workspace section, we need to specify if we need to register the default application group with a workspace. 
-
-     ![ws name.](media/13.png)
-    
+10. In the Workspace section, we need to specify if we need to register the default application group with a workspace.   
     
      * Register desktop app group: Yes 
 
      * To this workspace: Create new
+     
+     ![ws name.](media/13.png)
     
 11. Once you click the **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
 
