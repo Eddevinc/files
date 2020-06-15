@@ -31,13 +31,13 @@ Host pools are a collection of one or more identical virtual machines within Win
  
    **A.** Project Details – Defines the environment 
 
-      **Subscription**: Choose the default subscription
+       * Subscription: Choose the default subscription
 
-      **Resource Group**: Choose the default pre-created Resource Group
+       * Resource Group: Choose the default pre-created Resource Group
 
-      **Host Pool Name**: WVD-HP-01 
+       * Host Pool Name: WVD-HP-01 
 
-      **Location**: Choose the location of the pre-created resource Group
+       * Location: Choose the location of the pre-created resource Group
 
    **B.** Host Pool Type – Defines the type of host pool. 
 
@@ -126,7 +126,7 @@ Host pools are a collection of one or more identical virtual machines within Win
 
       * Confirm Password: Confirm the password from the ‘Lab Environment’ Tab.
        
-       ![ws name.](media/12.png)
+      ![ws name.](media/12.png)
    
 
 9. Click on Next:Workspace to proceed. 
@@ -141,10 +141,9 @@ Host pools are a collection of one or more identical virtual machines within Win
     
 11. Once you click the **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
 
+     * Workspace name: WVD-WS-01
+     
      ![ws name.](media/14.png)
-
-
-      * Workspace name: WVD-WS-01
 
       
       Click **OK** 
