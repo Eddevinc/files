@@ -27,7 +27,9 @@
    ![ws name.](media/54.png)
    
    
-6. Now click on **Yes**.
+6. Make sure to **uncheck** Allow my organization to manage my device.
+
+   Click on **Yes**.
 
    ![ws name.](media/55.png)
    
@@ -75,7 +77,9 @@
    ![ws name.](media/54.png)
    
    
-5. Now Click on **Yes**.
+5. Make sure to **uncheck** Allow my organization to manage my device.
+
+   Click on **Yes**.
 
    ![ws name.](media/55.png)
    
