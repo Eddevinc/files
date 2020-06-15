@@ -139,7 +139,7 @@ Host pools are a collection of one or more identical virtual machines within Win
 
 10. In the Workspace section, we need to specify if we need to register the default application group with a workspace. 
 
-    ![ws name.](media/13.png)
+     ![ws name.](media/13.png)
     
     
      **Register desktop app group:** Yes 
@@ -148,7 +148,7 @@ Host pools are a collection of one or more identical virtual machines within Win
     
 11. Once you click the **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
 
-    ![ws name.](media/14.png)
+     ![ws name.](media/14.png)
 
 
       **Workspace name:** WVD-WS-01
@@ -158,20 +158,20 @@ Host pools are a collection of one or more identical virtual machines within Win
 
 12. Once we fill up all the parameters, click on the  **Review + create** button on the bottom left corner. 
 
-    ![ws name.](media/15.png)
+     ![ws name.](media/15.png)
 
 
 13. The last window helps us verify if the parameters we filled are correct. If yes, click on Create to initiate the deployment. 
 
-    ![ws name.](media/16.png)
+     ![ws name.](media/16.png)
 
 
 14. The deployment starts, wait until the deployment gets succeeded.  
 
-    ![ws name.](media/17.png)
+     ![ws name.](media/17.png)
 
 
-    ![ws name.](media/18.png)
+     ![ws name.](media/18.png)
  
  
      Click on **Go to Resource**.
@@ -180,11 +180,11 @@ Host pools are a collection of one or more identical virtual machines within Win
 
      Click on **Session Hosts** 
 
-    ![ws name.](media/19.png)
+     ![ws name.](media/19.png)
 
 
 16. Notice the Session Hosts created, with a name concatenating the Name Prefix and increment number. 
 
 
-    ![ws name.](media/20.png)
+     ![ws name.](media/20.png)
 
