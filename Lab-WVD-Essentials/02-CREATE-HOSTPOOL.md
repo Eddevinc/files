@@ -31,13 +31,13 @@ Host pools are a collection of one or more identical virtual machines within Win
  
    **A.** Project Details – Defines the environment 
 
-      **Subscription**: Choose the default subscription
+   **Subscription**: Choose the default subscription
 
-      **Resource Group**: Choose the default pre-created Resource Group
+   **Resource Group**: Choose the default pre-created Resource Group
 
-      **Host Pool Name**: WVD-HP-01 
+   **Host Pool Name**: WVD-HP-01 
 
-      **Location**: Choose the location of the pre-created resource Group
+   **Location**: Choose the location of the pre-created resource Group
 
    **B.** Host Pool Type – Defines the type of host pool. 
 
