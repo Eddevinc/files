@@ -32,17 +32,17 @@ An application group of type ‘Desktop’ was created automatically while creat
     ![ws name.](media/25.png)
 
 
-     1) **Subscription**: Choose the default subscription
+1) **Subscription**: Choose the default subscription
 
-     2) **Resource Group**: Choose the default pre-created Resource Group
+2) **Resource Group**: Choose the default pre-created Resource Group
 
-     3) **Host Pool:** WVD-HP-01 
+3) **Host Pool:** WVD-HP-01 
 
-     4) **Location**:  Choose the default location
+4) **Location**:  Choose the default location
 
-     5) **Application Group Type:** RemoteApp 
+5) **Application Group Type:** RemoteApp 
 
-     6) **Application Group Name:** WVD-AG-01 
+6) **Application Group Name:** WVD-AG-01 
 
  
 
