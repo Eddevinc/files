@@ -152,6 +152,7 @@
 
 
 **Workspace name:** WVD-WS-01 
+
 Click **OK** 
 
 12. Once we fill up all the parameters, click on the  **Review + create** button on the bottom left corner. 
