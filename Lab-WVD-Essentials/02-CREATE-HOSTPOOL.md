@@ -29,17 +29,18 @@ Host pools are a collection of one or more identical virtual machines within Win
     ![ws name.](media/5.png)
  
  
-   **A.** Project Details – Defines the environment 
+**A.** Project Details – Defines the environment 
 
-      **Subscription**: Choose the default subscription
+**Subscription**: Choose the default subscription
 
-      **Resource Group**: Choose the default pre-created Resource Group
+**Resource Group**: Choose the default pre-created Resource Group
 
-      **Host Pool Name**: WVD-HP-01 
+**Host Pool Name**: WVD-HP-01 
 
-      **Location**: Choose the location of the pre-created resource Group
+**Location**: Choose the location of the pre-created resource Group
 
-   **B.** Host Pool Type – Defines the type of host pool. 
+
+**B.** Host Pool Type – Defines the type of host pool. 
 
       1. **Host pool type**: Pooled
  
@@ -53,14 +54,14 @@ Host pools are a collection of one or more identical virtual machines within Win
     
 
     
-      2. **Max session Limit**: 5
+2. **Max session Limit**: 5
 
 
              Max session Limit limits the simultaneous number of users on the same session host.
   
     
    
-      3. **Load Balancing Algorithm**: Breadth First
+ 3. **Load Balancing Algorithm**: Breadth First
 
 
 
@@ -79,30 +80,30 @@ Host pools are a collection of one or more identical virtual machines within Win
 
 8. Now a long list of parameter appears. These can be categorized into three: Session Host specifications, Network and Security, Domain and Administrator account. 
 
-    A. Session Host Specifications 
+A. Session Host Specifications 
 
       In this section, we provide the details of the VMs to be created as session Hosts. 
    
     ![ws name.](media/10.png)
    
 
-      **Resource Group**: Choose the default pre-created Resource Group
+**Resource Group**: Choose the default pre-created Resource Group
 
-      **Virtual machine location**: Choose the location of the pre-created resource Group
+**Virtual machine location**: Choose the location of the pre-created resource Group
 
-      **Virtual machine size**: Standard D1_V2 
+**Virtual machine size**: Standard D1_V2 
 
-      **Number of VMs**: 2 
+**Number of VMs**: 2 
    
-      **Name prefix**: WVD-SH 
+**Name prefix**: WVD-SH 
 
-      **Image type**: Gallery 
+**Image type**: Gallery 
 
-      **Image**: Windows 10 Enterprise multi-session, version 1909 + Office 365 ProPlus (choose from dropdown) 
+**Image**: Windows 10 Enterprise multi-session, version 1909 + Office 365 ProPlus (choose from dropdown) 
 
-      **OS disk type**: Standard SSD 
+**OS disk type**: Standard SSD 
 
-      **Use managed disks**: Yes 
+**Use managed disks**: Yes 
     
    
     B. Network and Security 
