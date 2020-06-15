@@ -84,51 +84,51 @@ Host pools are a collection of one or more identical virtual machines within Win
 
       * Resource Group: Choose the default pre-created Resource Group
 
-      **Virtual machine location**: Choose the location of the pre-created resource Group
+      *Virtual machine location: Choose the location of the pre-created resource Group
 
-      **Virtual machine size**: Standard D1_V2 
+      *Virtual machine size: Standard D1_V2 
 
-      **Number of VMs**: 2 
+      *Number of VMs: 2 
    
-      **Name prefix**: WVD-SH 
+      *Name prefix: WVD-SH 
 
-      **Image type**: Gallery 
+      *Image type: Gallery 
 
-      **Image**: Windows 10 Enterprise multi-session, version 1909 + Office 365 ProPlus (choose from dropdown) 
+      *Image: Windows 10 Enterprise multi-session, version 1909 + Office 365 ProPlus (choose from dropdown) 
 
-      **OS disk type**: Standard SSD 
+      *OS disk type: Standard SSD 
 
-      **Use managed disks**: Yes 
+      *Use managed disks: Yes 
     
    
     **B. Network and Security** 
  
-    ![ws name.](media/11.png)
+      ![ws name.](media/11.png)
    
   
-      **Virtual Network**: Default value
+      *Virtual Network: Default value
 
-      **Subnet**: Default value
+      *Subnet: Default value
 
-      **Public IP**: Default value
+      *Public IP: Default value
 
-      **Network security Group**: Default value
+      *Network security Group: Default value
 
-      **Public inbound ports**: Default value
+      *Public inbound ports: Default value
  
  
     **C. Domain and Administrator account.** 
 
-    ![ws name.](media/12.png)
+      ![ws name.](media/12.png)
  
 
-      **Specify Domain or Unit**: No 
+      *Specify Domain or Unit: No 
 
-      **AD domain join UPN**: Provide the username from ‘Lab Environment’ Tab
+      *AD domain join UPN: Provide the username from ‘Lab Environment’ Tab
 
-      **Password**: Provide the password from the ‘Lab Environment’ Tab
+      *Password: Provide the password from the ‘Lab Environment’ Tab
 
-      **Confirm Password**: Confirm the password from the ‘Lab Environment’ Tab
+      *Confirm Password: Confirm the password from the ‘Lab Environment’ Tab
    
 
 9. Click on Next:Workspace to proceed. 
@@ -138,16 +138,16 @@ Host pools are a collection of one or more identical virtual machines within Win
      ![ws name.](media/13.png)
     
     
-     **Register desktop app group:** Yes 
+     *Register desktop app group: Yes 
 
-     **To this workspace:** Create new
+     *To this workspace: Create new
     
 11. Once you click the **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
 
      ![ws name.](media/14.png)
 
 
-      **Workspace name:** WVD-WS-01
+      *Workspace name: WVD-WS-01
 
       
       Click **OK** 
