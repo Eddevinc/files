@@ -29,22 +29,22 @@ Host pools are a collection of one or more identical virtual machines within Win
     ![ws name.](media/5.png)
  
  
-  **A.** Project Details – Defines the environment 
+    **A.** Project Details – Defines the environment 
 
-   **Subscription**: Choose the default subscription
+      **Subscription**: Choose the default subscription
 
-   **Resource Group**: Choose the default pre-created Resource Group
+      **Resource Group**: Choose the default pre-created Resource Group
 
-   **Host Pool Name**: WVD-HP-01 
+      **Host Pool Name**: WVD-HP-01 
 
-   **Location**: Choose the location of the pre-created resource Group
+      **Location**: Choose the location of the pre-created resource Group
 
-  **B.** Host Pool Type – Defines the type of host pool. 
+    **B.** Host Pool Type – Defines the type of host pool. 
 
-   1. **Host pool type**: Pooled
+      1. **Host pool type**: Pooled
  
 
-          Host Pools are of 2 types:
+             Host Pools are of 2 types:
               1.	Pooled
               2.	Personal
               Pooled is used to share the same Session Host (Virtual Machine) resources among multiple users, while Personal uses a dedicated   Session host of individual user.
@@ -53,22 +53,22 @@ Host pools are a collection of one or more identical virtual machines within Win
     
 
     
-  2. **Max session Limit**: 5
+      2. **Max session Limit**: 5
 
 
-         Max session Limit limits the simultaneous number of users on the same session host.
+             Max session Limit limits the simultaneous number of users on the same session host.
   
     
    
-  3. **Load Balancing Algorithm**: Breadth First
+      3. **Load Balancing Algorithm**: Breadth First
 
 
 
-         Load Balancing Algorithm are of 2 types:
-         1. Breadth-first
-         2. Depth-first
+             Load Balancing Algorithm are of 2 types:
+             1. Breadth-first
+             2. Depth-first
 
-         Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool. Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
+             Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool. Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
    
    
 
@@ -81,7 +81,7 @@ Host pools are a collection of one or more identical virtual machines within Win
 
     A. Session Host Specifications 
 
-       In this section, we provide the details of the VMs to be created as session Hosts. 
+      In this section, we provide the details of the VMs to be created as session Hosts. 
    
     ![ws name.](media/10.png)
    
