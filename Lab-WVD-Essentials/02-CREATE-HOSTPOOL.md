@@ -31,40 +31,40 @@ Host pools are a collection of one or more identical virtual machines within Win
  
    **A.** Project Details – Defines the environment 
 
-      * Subscription: Choose the default subscription
+      **Subscription**: Choose the default subscription
 
-      * Resource Group: Choose the default pre-created Resource Group
+      **Resource Group**: Choose the default pre-created Resource Group
 
-      * Host Pool Name: WVD-HP-01 
+      **Host Pool Name**: WVD-HP-01 
 
-      * Location: Choose the location of the pre-created resource Group
+      **Location**: Choose the location of the pre-created resource Group
 
    **B.** Host Pool Type – Defines the type of host pool. 
 
       1. **Host pool type**: Pooled
  
 
-         * Host Pools are of 2 types:
+             Host Pools are of 2 types:
              1.	Pooled
              2.	Personal
-         * Pooled is used to share the same Session Host (Virtual Machine) resources among multiple users, while Personal uses a dedicated   Session host of individual user.
+             Pooled is used to share the same Session Host (Virtual Machine) resources among multiple users, while Personal uses a dedicated   Session host of individual user.
 
 
     
       2. **Max session Limit**: 5
 
 
-          * Max session Limit limits the simultaneous number of users on the same session host.
+             Max session Limit limits the simultaneous number of users on the same session host.
   
        
       3. **Load Balancing Algorithm**: Breadth First
 
 
-           * Load Balancing Algorithm are of 2 types:
+             Load Balancing Algorithm are of 2 types:
              1. Breadth-first
              2. Depth-first
 
-           * Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool. Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
+             Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool. Depth-first load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
    
    
 
@@ -75,42 +75,42 @@ Host pools are a collection of one or more identical virtual machines within Win
 
 8. Now a long list of parameter appears. These can be categorized into three: Session Host specifications, Network and Security, Domain and Administrator account. 
 
-    **A. Session Host Specifications**
+    **A.** Session Host Specifications**
 
       In this section, we provide the details of the VMs to be created as session Hosts. 
 
-      * Resource Group: Choose the default pre-created Resource Group
+      **Resource Group**: Choose the default pre-created Resource Group
 
-      * Virtual machine location: Choose the location of the pre-created resource Group
+      **Virtual machine location**: Choose the location of the pre-created resource Group
 
-      * Virtual machine size: Standard D1_V2 
+      **Virtual machine size**: Standard D1_V2 
 
-      * Number of VMs: 2 
+      **Number of VMs**: 2 
    
-      * Name prefix: WVD-SH 
+      **Name prefix**: WVD-SH 
 
-      * Image type: Gallery 
+      **Image type**: Gallery 
 
-      * Image: Windows 10 Enterprise multi-session, version 1909 + Office 365 ProPlus (choose from dropdown) 
+      **Image**: Windows 10 Enterprise multi-session, version 1909 + Office 365 ProPlus (choose from dropdown) 
 
-      * OS disk type: Standard SSD 
+      **OS disk type**: Standard SSD 
 
-      * Use managed disks: Yes 
+      **Use managed disks**: Yes 
       
       ![ws name.](media/10.png)
     
    
     **B. Network and Security** 
   
-      * Virtual Network: Default value
+      **Virtual Network**: Default value
 
-      * Subnet: Default value
+      **Subnet**: Default value
 
-      * Public IP: Default value
+      **Public IP**: Default value
 
-      * Network security Group: Default value
+      **Network security Group**: Default value
 
-      * Public inbound ports: Default value
+      **Public inbound ports**: Default value
       
       ![ws name.](media/11.png)
    
@@ -118,13 +118,13 @@ Host pools are a collection of one or more identical virtual machines within Win
  
     **C. Domain and Administrator account.** 
 
-      * Specify Domain or Unit: No 
+      **Specify Domain or Unit**: No 
 
-      * AD domain join UPN: Provide the username from ‘Lab Environment’ Tab
+      **AD domain join UPN**: Provide the username from ‘Lab Environment’ Tab
 
-      * Password: Provide the password from the ‘Lab Environment’ Tab
+      **Password**: Provide the password from the ‘Lab Environment’ Tab
 
-      * Confirm Password: Confirm the password from the ‘Lab Environment’ Tab.
+      **Confirm Password**: Confirm the password from the ‘Lab Environment’ Tab.
        
       ![ws name.](media/12.png)
    
@@ -133,15 +133,15 @@ Host pools are a collection of one or more identical virtual machines within Win
 
 10. In the Workspace section, we need to specify if we need to register the default application group with a workspace.   
     
-     * Register desktop app group: Yes 
+     **Register desktop app group**: Yes 
 
-     * To this workspace: Create new
+     **To this workspace**: Create new
      
      ![ws name.](media/13.png)
     
 11. Once you click the **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
 
-     * Workspace name: WVD-WS-01
+     **Workspace name**: WVD-WS-01
      
      ![ws name.](media/14.png)
 
