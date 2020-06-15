@@ -99,7 +99,7 @@
    ![ws name.](media/62.png)
    
 
-10. Your Desktop will open and will be ready to use.
+10. Your virtual Desktop will launch and it should be ready to use.
 
         You can also access Aplications through Your Workspace Desktop.
         
