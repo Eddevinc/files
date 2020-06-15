@@ -122,7 +122,7 @@
   **Public inbound ports**: Default value
  
  
- c. Domain and Administrator account 
+ C. Domain and Administrator account 
 
   ![ws name.](media/12.png)
  
