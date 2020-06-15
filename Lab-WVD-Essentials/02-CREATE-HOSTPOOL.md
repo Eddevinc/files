@@ -82,7 +82,7 @@ Host pools are a collection of one or more identical virtual machines within Win
     ![ws name.](media/10.png)
    
 
-      **Resource Group**: Choose the default pre-created Resource Group
+      * Resource Group: Choose the default pre-created Resource Group
 
       **Virtual machine location**: Choose the location of the pre-created resource Group
 
