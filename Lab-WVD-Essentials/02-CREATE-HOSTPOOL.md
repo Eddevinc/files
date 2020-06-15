@@ -75,7 +75,7 @@ Host pools are a collection of one or more identical virtual machines within Win
 
 8. Now a long list of parameter appears. These can be categorized into three: Session Host specifications, Network and Security, Domain and Administrator account. 
 
-    **A. Session Host Specifications 
+    **A. Session Host Specifications**
 
       In this section, we provide the details of the VMs to be created as session Hosts. 
 
