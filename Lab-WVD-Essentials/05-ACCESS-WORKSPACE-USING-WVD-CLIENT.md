@@ -1,6 +1,6 @@
-# Access the Published Applications/ Desktop using WVD Client
+# **Exercise 6: Access the Published Applications/ Desktop using WVD Client**
 
-## Access the Published Applications using WVD Client
+## **Access the Published Applications using WVD Client**
 
 1. Download the **WVD Client** on your local machine from the following [**Link**](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-and-10) and install it.
    
