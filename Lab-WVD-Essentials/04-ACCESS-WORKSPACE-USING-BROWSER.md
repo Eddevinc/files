@@ -1,5 +1,6 @@
-# Access the Published Applications/ Desktop using Browser
-## Access the Published Apps
+# **Exercise 5: Access the Published Applications/ Desktop using Browser**
+
+## **Access the Published Apps**
 
 Now as we have published Desktop and Applications in previous step, now we will be accessing them. 
 
@@ -28,7 +29,7 @@ Now as we have published Desktop and Applications in previous step, now we will 
     ![ws name.](media/44.png)
 
 
-## Access the published Desktop
+## **Access the published Desktop**
 
 1. Use the link [**aka.ms/wvdarmweb**](aka.ms/wvdarmweb) and enter your credentials to login. 
 
