@@ -5,9 +5,9 @@ As explained in the General Hierarchy section, Application Group is a logical gr
 1. Remote App 
 2. Desktop 
 
-Task 1: Create Application Group:
+## **Task 1: Create Application Group**
 
-An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. Now in this task we will create a new application group of type ‘Remote App’. 
+An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. Now in this task we will create a new application group of type ‘Remote App’ named *WVD-AG-01* and assign *wvduser01* to it. Then we will add two applications i.e *word* and *excel* to the application group.
 
 1. In the search bar, search for ‘Windows Virtual Desktop” and you will see a resource that shows up in the same name. Click on it. 
 
