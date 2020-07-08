@@ -1,8 +1,8 @@
 # **Exercise 5: Access the Published Applications/ Desktop using Browser**
 
-## **Access the Published Apps**
+## **Task 1: Access the Published Apps**
 
-Now as we have published Desktop and Applications in previous step, now we will be accessing them. 
+Now as we have published remote apps in previous exercise, now we will be accessing them using web browser.
 
 1. Use the link [**aka.ms/wvdarmweb**](aka.ms/wvdarmweb) and enter your **credentials** to login. 
 
@@ -29,7 +29,9 @@ Now as we have published Desktop and Applications in previous step, now we will 
    ![ws name.](media/44.png)
 
 
-## **Access the published Desktop**
+## **Task 2: Access the published Desktop**
+
+In this task we will be accessing the desktop type application named *WVD-HP-01-DAG* created by default when we created *WVD-HP-01* host pool using browser.
 
 1. Use the link [**aka.ms/wvdarmweb**](aka.ms/wvdarmweb) and enter your credentials to login. 
 
