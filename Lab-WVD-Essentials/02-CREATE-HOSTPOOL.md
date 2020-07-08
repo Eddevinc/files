@@ -2,6 +2,8 @@
 
  
  Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop environments. Each host pool can contain an app group that users can interact with as they would on a physical desktop. 
+ 
+In this exercise we will be creating a host pool named *WVD-HP-01* of pooled type and add two session hosts (virtual machines) i.e. *WVD-SH-0* and *WVD-SH-1*  then register them under a new workspace named *WVD-WS-01*.
 
 1. Login to the Azure portal using the credentials in the Lab Environments section. 
 
