@@ -1,4 +1,4 @@
-# Pre-requisites to deploy Windows Virtual Desktop
+# **Exercise 2: Pre-requisites to deploy Windows Virtual Desktop**
 
 To deploy a Windows Virtual Desktop environment, we need a pre-created windows domain (e.g: contoso.com). This can be created one of the following:
 
