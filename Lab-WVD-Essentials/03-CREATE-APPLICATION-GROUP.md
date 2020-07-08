@@ -1,4 +1,4 @@
-# Create Application Groups 
+# **Exercise 4: Create Application Groups** 
 
 As explained in the General Hierarchy section, Application Group is a logical grouping of applications installed on session hosts in the host pool. They are of two types: 
 
