@@ -3,48 +3,51 @@
  
  Host pools are a collection of one or more identical virtual machines within Windows Virtual Desktop environments. Each host pool can contain an app group that users can interact with as they would on a physical desktop. 
  
+## **Task 1: Create Host pool**
+
 In this exercise we will be creating a host pool named *WVD-HP-01* of pooled type and add two session hosts (virtual machines) i.e. *WVD-SH-0* and *WVD-SH-1*  then register them under a new workspace named *WVD-WS-01*.
 
 1. Login to the Azure portal using the credentials in the Lab Environments section. 
 
 2. In the search bar, search for ‘Windows Virtual Desktop” and you will see a resource that shows up in the same name. Click on it. 
 
-![ws name.](media/1.png)
+   ![ws name.](media/1.png)
  
 
 3. You will be directed towards the Windows Virtual Desktop(Hereafter referred as WVD) management window.  
 
-![ws name.](media/2.png)
+   ![ws name.](media/2.png)
 
 
 4. In the management tab, select **Host pools**. 
 
-![ws name.](media/3.png)
+   ![ws name.](media/3.png)
 
 
 5. Click on Add to add new Host Pool. 
 
-![ws name.](media/4.png)
+   ![ws name.](media/4.png)
 
 
 6. Creating a Host Pool is divided into multiple sections. The first one is the Basic section. All the fields in this section are explained below along with the values: 
 
- ![ws name.](media/5.png)
+   ![ws name.](media/5.png)
  
  
-**A.** Project Details – Defines the environment 
+   **A.** Project Details – Defines the environment 
 
-**Subscription**: Choose the default subscription
+    **Subscription**: Choose the default subscription
 
-**Resource Group**: Choose the default pre-created Resource Group
+    **Resource Group**: Choose the default pre-created Resource Group
 
-**Host Pool Name**: WVD-HP-01 
+    **Host Pool Name**: WVD-HP-01 
 
-**Location**: Choose the location of the pre-created resource Group
+    **Location**: Choose the location of the pre-created resource Group
 
-**B.** Host Pool Type – Defines the type of host pool. 
 
-1. **Host pool type**: Pooled
+   **B.** Host Pool Type – Defines the type of host pool. 
+
+     1. **Host pool type**: Pooled
  
 
        Host Pools are of 2 types:
@@ -56,14 +59,14 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
     
 
     
-2. **Max session Limit**: 5
+     2. **Max session Limit**: 5
 
 
        Max session Limit limits the simultaneous number of users on the same session host.
   
     
    
-3. **Load Balancing Algorithm**: Breadth First
+     3. **Load Balancing Algorithm**: Breadth First
 
 
 
@@ -78,64 +81,64 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
    
 7. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool. 
 
-![ws name.](media/9.png)
+   ![ws name.](media/9.png)
 
 8. Now a long list of parameter appears. These can be categorized into three: Session Host specifications, Network and Security, Domain and Administrator account. 
 
-  A. Session Host Specifications 
+   **A**. Session Host Specifications 
 
    In this section, we provide the details of the VMs to be created as session Hosts. 
    
    ![ws name.](media/10.png)
    
 
-   **Resource Group**: Choose the default pre-created Resource Group
+    **Resource Group**: Choose the default pre-created Resource Group
 
-   **Virtual machine location**: Choose the location of the pre-created resource Group
+    **Virtual machine location**: Choose the location of the pre-created resource Group
 
-   **Virtual machine size**: Standard D1_V2 
+    **Virtual machine size**: Standard D1_V2 
 
-   **Number of VMs**: 2 
+    **Number of VMs**: 2 
    
-   **Name prefix**: WVD-SH 
+    **Name prefix**: WVD-SH 
 
-   **Image type**: Gallery 
+    **Image type**: Gallery 
 
-   **Image**: Windows 10 Enterprise multi-session, version 1909 + Office 365 ProPlus (choose from dropdown) 
+    **Image**: Windows 10 Enterprise multi-session, version 1909 + Office 365 ProPlus (choose from dropdown) 
 
-   **OS disk type**: Standard SSD 
+    **OS disk type**: Standard SSD 
 
-   **Use managed disks**: Yes 
+    **Use managed disks**: Yes 
    
    
-  B. Network and Security 
+   **B**. Network and Security 
  
-   ![ws name.](media/11.png)
+    ![ws name.](media/11.png)
    
   
-  **Virtual Network**: Default value
+    **Virtual Network**: Default value
 
-  **Subnet**: Default value
+    **Subnet**: Default value
 
-  **Public IP**: Default value
+    **Public IP**: Default value
 
-  **Network security Group**: Default value
+    **Network security Group**: Default value
 
-  **Public inbound ports**: Default value
+    **Public inbound ports**: Default value
  
  
- C. Domain and Administrator account 
+   **C**. Domain and Administrator account 
 
-  ![ws name.](media/12.png)
+   ![ws name.](media/12.png)
  
 
-   **Specify Domain or Unit**: No 
+    **Specify Domain or Unit**: No 
 
-   **AD domain join UPN**: Provide the username from ‘Lab Environment’ Tab
+    **AD domain join UPN**: Provide the username from ‘Lab Environment’ Tab
 
-   **Password**: Provide the password from the ‘Lab Environment’ Tab
+    **Password**: Provide the password from the ‘Lab Environment’ Tab
 
-   **Confirm Password**: Confirm the password from the ‘Lab Environment’ Tab
+    **Confirm Password**: Confirm the password from the ‘Lab Environment’ Tab
    
 9. Click on Next:Workspace to proceed. 
 
@@ -144,27 +147,27 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
     ![ws name.](media/13.png)
     
     
-**Register desktop app group:** Yes 
+     **Register desktop app group:** Yes 
 
-**To this workspace:** Create new
+     **To this workspace:** Create new
     
-11.  Once you click the **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
+11. Once you click the **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
 
-![ws name.](media/14.png)
+    ![ws name.](media/14.png)
 
 
-**Workspace name:** WVD-WS-01 
+     **Workspace name:** WVD-WS-01 
 
-Click **OK** 
+     Click **OK** 
 
 12. Once we fill up all the parameters, click on the  **Review + create** button on the bottom left corner. 
 
-![ws name.](media/15.png)
+    ![ws name.](media/15.png)
 
 
 13. The last window helps us verify if the parameters we filled are correct. If yes, click on Create to initiate the deployment. 
 
-![ws name.](media/16.png)
+    ![ws name.](media/16.png)
 
 
 14. The deployment starts, wait until the deployment gets succeeded.  
