@@ -1,5 +1,7 @@
 # **Exercise 6: Access the Published Applications/ Desktop using WVD Client**
 
+WVD-Client is a remote desktop application through which we can connect to our windows virtual desktop environment.
+
 ## **Task 1: Access the Published Applications using WVD Client**
 
 Now as we have published remote apps in previous exercises, now we will be accessing them using wvd-client.
