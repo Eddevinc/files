@@ -1,4 +1,4 @@
-# Overview 
+# **Exercise 1: Overview** 
 
 Windows Virtual Desktop is a multi-tenant service hosted by Microsoft that manages connections between RD clients and isolated Windows Virtual Desktop tenant environments. Each Windows Virtual Desktop tenant environment consists of one or more host pools. Each host pool consists of one or more identical session hosts. The session hosts are virtual machines (VMs) running Windows 10 Enterprise multi-session, Windows Server 2019, Windows Server 2016, Windows 7, and Windows 10 Enterprise. 
 
@@ -6,9 +6,9 @@ Windows Virtual Desktop is a multi-tenant service hosted by Microsoft that manag
 
 Each host pool may have one or more app groups. There are two types of app groups: Remote Desktop and Remote App. Remote desktop app group offers access to a full desktop and provides immersive user experience and full interaction with the operating system running on the session host. A Remote App group publishes one or more Remote Apps that display on the Remote Desktop client as the application window on the local Remote Desktop client's desktop. 
 
-## General Hierarchy 
+## **General Hierarchy**
 
-### Hostpools
+### **Hostpools***
 
 A host pool is a collection of Azure virtual machines that register to Windows Virtual Desktop as session hosts when you run the Windows Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. 
 
@@ -20,7 +20,7 @@ A host pool can be one of two types:
 
 You can set additional properties on the host pool to change its load-balancing behavior, how many sessions each session host can take, and what the user can do to session hosts in the host pool while signed in to their Windows Virtual Desktop sessions. You control the resources published to users through app groups. 
 
-### App Groups 
+### **App Groups**
 
  
 
@@ -44,10 +44,10 @@ To publish resources to users, you must assign them to app groups. When assignin
 
 2. A user can be assigned to multiple app groups within the same host pool, and their feed will be an accumulation of both app groups. 
 
-### Workspaces 
+### **Workspaces** 
 
 A workspace is a logical grouping of application groups in Windows Virtual Desktop. Each Windows Virtual Desktop application group must be associated with a workspace for users to see the remote apps and desktops published to them. 
 
-### End Users 
+### **End Users**
 
 After you've assigned users to their app groups, they can connect to a Windows Virtual Desktop deployment with any of the Windows Virtual Desktop clients. 
