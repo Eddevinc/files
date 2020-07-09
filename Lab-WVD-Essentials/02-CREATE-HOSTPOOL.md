@@ -35,8 +35,7 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
    - Validation environmet: **No**
       
 >**Note:** Validation host pools let you monitor service updates before rolling them out to your production environment.
-      
-      
+            
  **B.** **Host Pool Type –** Defines the type of host pool. 
 
    - Host pool type: **Pooled** 
@@ -52,8 +51,8 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
    - Load Balancing Algorithm: **Breadth First**
       
    > **Note:** Load Balancing Algorithm are of 2 types: *Breadth-first* and *Depth-first*. 
-   > - *Breadth-first* load balancing distributes new user sessions across all available session hosts in the host pool. 
-   > - *Depth-first* load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
+   > - **Breadth-first** load balancing distributes new user sessions across all available session hosts in the host pool. 
+   > - **Depth-first** load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
      
    - Then click on **Next:Virtual Machines**.
           
