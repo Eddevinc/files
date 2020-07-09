@@ -1,0 +1,37 @@
+[
+  {
+    "Name": "Microsoft WVD Essentials",
+    "Language": "English",
+    "BaseURL": "https://github.com/Eddevinc/files",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/files/master/Lab-WVD-Essentials/00-OVERVIEW.md",
+        "Order": 1
+      },
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/files/master/Lab-WVD-Essentials/01-PREREQUISITE.md",
+        "Order": 2
+      },
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/files/master/Lab-WVD-Essentials/02-CREATE-HOSTPOOL.md",
+        "Order": 3
+      },
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/files/master/Lab-WVD-Essentials/03-CREATE-APPLICATION-GROUP.md",
+        "Order": 4
+      },
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/files/master/Lab-WVD-Essentials/04-ACCESS-WORKSPACE-USING-BROWSER.md",
+        "Order": 5
+      },
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/files/master/Lab-WVD-Essentials/05-ACCESS-WORKSPACE-USING-WVD-CLIENT.md",
+        "Order": 6
+      },
+			{
+        "RawFilePath": "https://raw.githubusercontent.com/Eddevinc/files/master/Lab-WVD-Essentials/06-SUMMARY.md",
+        "Order": 7
+      }
+    ]
+  }
+]
