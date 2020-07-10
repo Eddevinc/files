@@ -83,7 +83,8 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
    
    
  **B**. Network and Security 
-   - Virtual Network: Leave all values on default.
+   - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(Choose from drop down)*
+   - Leave all other values on default.
  
   ![ws name.](media/11.png)
  
@@ -126,20 +127,14 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
   ![ws name.](media/69.png)
 
 
-13. The last window helps us verify if the parameters we filled are correct. If yes, click on Create to initiate the deployment. 
+13. The last window helps us verify if the parameters we filled are correct. Wait for validation to pass, then click on **Create** to initiate the deployment. 
 
-  ![ws name.](media/16.png)
-
-
-14. The deployment starts, wait until the deployment gets succeeded.  
-
-  ![ws name.](media/17.png)
+  ![ws name.](media/70.png)
 
 
-  ![ws name.](media/18.png)
- 
- 
-Click on **Go to Resource**.
+14. Once the deployment gets succeededed, open notifications and click on **Go to Resource**.  
+
+  ![ws name.](media/71.png)
 
 15. You will see that the **Hostpool WVD-HP-01** is created with 2 session hosts in it, and a default application group (of type Desktop). 
 
