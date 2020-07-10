@@ -146,3 +146,4 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
 
   ![ws name.](media/20.png)
 
+17. Click on the **Next** button.  
