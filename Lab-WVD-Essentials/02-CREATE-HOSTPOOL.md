@@ -60,50 +60,42 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
 
 6. In the Virtual machines tab, select **Yes** against **Add virtual machines**. By doing this, we are stepping towards adding Virtual machines to the host pool. 
 
-  ![ws name.](media/9.png)
+  ![ws name.](media/66.png)
 
-8. Now a long list of parameter appears. These can be categorized into three: Session Host specifications, Network and Security, Domain and Administrator account. 
+7. Now a long list of parameter appears, here add following configurations respective to their fields. 
 
-   **A**. Session Host Specifications
+ **A**. Session Host Specifications: In this section, we provide the details of the VMs to be created as session Hosts.    
 
-     In this section, we provide the details of the VMs to be created as session Hosts.    
-
-     - Resource Group: *Select **WVD-RG** from the drop down*.
-     - Virtual machine location: **East US**, *location should be same as location of your resource group*.
-     - Virtual machine size: **Standard D1_v2**. *Click on **Change Size**, then select **D1_v2** and click on **Select** as shown below*
+   - Resource Group: *Select **WVD-RG** from the drop down*.
+   - Virtual machine location: **East US**, *location should be same as location of your resource group*.
+   - Virtual machine size: **Standard D1_v2**. *Click on **Change Size**, then select **D1_v2** and click on **Select** as shown below*
    
   ![ws name.](media/65.png)
 
-     - Number of VMs: **2**   
-     - Name prefix: **WVD-HP01-SH** 
-     - Image type: **Gallery**
-     - Image: **Windows 10 Enterprise multi-session, version 1909 + Office 365 ProPlus** *(choose from dropdown)* 
-     - OS disk type: **Standard SSD**
-     - Use managed disks: **Yes**
+   - Number of VMs: **2**   
+   - Name prefix: **WVD-HP01-SH** 
+   - Image type: **Gallery**
+   - Image: **Windows 10 Enterprise multi-session, version 1909 + Office 365 ProPlus** *(choose from dropdown)* 
+   - OS disk type: **Standard SSD**
+   - Use managed disks: **Yes**
    
   ![ws name.](media/a8.png)
    
    
-  **B**. Network and Security 
-   - Subnet: *Choose **sessionhosts-subnet (10.0.1.0/24)** from the dropdown*.     
-   - Leave all other values on default. 
- 
-**Virtual Network**: Default value
-
-    **Subnet**: Default value
-
-    **Public IP**: Default value
-
-    **Network security Group**: Default value
-
-    **Public inbound ports**: Default value
+ **B**. Network and Security 
+   - Virtual Network: Leave all values on default.
  
   ![ws name.](media/11.png)
  
-   **C**. Domain and Administrator account 
+ **C**. Domain and Administrator account 
 
-  ![ws name.](media/12.png)
- 
+  ![ws name.](media/save.png)
+   
+   - Specify Domain or Unit: No
+   - AD domain join UPN: Paste username of DomainJoinAdminUser,for example: DomainJoinAdminUser@azurehol1055.onmicrosoft.com.
+   - Password: Azure1234567
+   - Confirm Password: Azure1234567
+
 
     **Specify Domain or Unit**: No 
 
@@ -117,21 +109,18 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
 
 10. In the Workspace section, we need to specify if we need to register the default application group with a workspace. 
 
-  ![ws name.](media/13.png)
-    
-    
-     **Register desktop app group:** Yes 
+   -Register desktop app group: *Choose* **Yes** 
 
-     **To this workspace:** Create new
-    
+   - To this workspace: *Click on* **Create new**
+
+  ![ws name.](media/67.png)
+   
 11. Once you click the **Create new**, a small window pops up, where you can specify the Workspace name you are going to create.  
 
-  ![ws name.](media/14.png)
-
-
-     **Workspace name:** WVD-WS-01 
-
-     Click **OK** 
+   - Workspace name: **WVD-WS-01** 
+   - Click on **OK**
+     
+  ![ws name.](media/68.png) 
 
 12. Once we fill up all the parameters, click on the  **Review + create** button on the bottom left corner. 
 
