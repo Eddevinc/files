@@ -4,30 +4,38 @@
 
 Now as we have published remote apps in previous exercise, now we will be accessing them using web browser.
 
-1. Use the link [**aka.ms/wvdarmweb**](aka.ms/wvdarmweb) and enter your **credentials** to login. 
+1. Use the link ```aka.ms/wvdarmweb``` and enter your **credentials** to login. 
 
-   ![ws name.](media/40.png)
+   - Username: Put username **WVD User-01** which you copied in previous step (for example: **WVDUser-01@azurehol1055.onmicrosoft.com**). Then click on **Next**.
+   
+   ![ws name.](media/wvd42.png)
+
+   - Password: **Azure1234567** and click on **Sign in**.
+
+   ![ws name.](media/wvd43.png)
   
 
 2. Now you will be inside the WVD dashboard with all the Desktop and Applications visible. Click on any one of the applications to access it. 
 
-   ![ws name.](media/41.png)
+   ![ws name.](media/83.png)
 
 
 3. Click on **Allow** for the prompt.
 
-   ![ws name.](media/42.png)
+   ![ws name.](media/128.png)
 
 
-4. Enter your **credentials** to access the application.
+4. Enter your **credentials** to access the application and click on **Submit**.
 
-   ![ws name.](media/43.png)
+   - Username: Put the username of **WVD User-01** which you copied in previous task (for example: **WVDUser-01@azurehol1055.onmicrosoft.com**)
+   
+   - Password: **Azure1234567**
 
-
+   ![ws name.](media/a47.png)
+      
 5. Your application will launch.
 
-   ![ws name.](media/44.png)
-
+   ![ws name.](media/130.png)
 
 ## **Task 2: Access the published Desktop**
 
