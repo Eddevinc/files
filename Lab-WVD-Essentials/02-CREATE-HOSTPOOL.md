@@ -110,7 +110,6 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
 10. In the Workspace section, we need to specify if we need to register the default application group with a workspace. 
 
    - Register desktop app group: *Choose* **Yes** 
-
    - To this workspace: *Click on* **Create new**
 
   ![ws name.](media/67.png)
@@ -124,7 +123,7 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
 
 12. Once we fill up all the parameters, click on the  **Review + create** button on the bottom left corner. 
 
-  ![ws name.](media/15.png)
+  ![ws name.](media/69.png)
 
 
 13. The last window helps us verify if the parameters we filled are correct. If yes, click on Create to initiate the deployment. 
