@@ -47,22 +47,22 @@ Now as we have published remote apps in previous exercises, now we will be acces
    ![ws name.](media/55.png)
    
    
-10. Now click on any of the applications to access it.
+9. Now click on any of the applications to access it.
 
    ![ws name.](media/56.png)
    
 
-11. Enter your **credentials** to access the Application.
+10. Enter your **credentials** to access the Application.
 
    ![ws name.](media/57.png)
    
 
-12. Wait for your application to connect.
+11. Wait for your application to connect.
 
    ![ws name.](media/58.png)
    
 
-13. Your Application will launch and will be ready to use.
+12. Your Application will launch and will be ready to use.
 
     ![ws name.](media/59.png)
     
@@ -118,4 +118,4 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
         
     ![ws name.](media/63.png)   
      
-    
+ 11. Click on the **Next** button.   
