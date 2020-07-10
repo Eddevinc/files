@@ -24,31 +24,22 @@ An application group of type ‘Desktop’ was created automatically while creat
    ![ws name.](media/23.png)
 
 
-4. Now, lets create a new Application Group of type ‘Remote App’. Click on the **Add** button. 
+4. Now, lets create a new Application Group of type ‘Remote App’. Click on the **+ Add** button. 
 
-   ![ws name.](media/24.png)
+   ![ws name.](media/a18.png)
 
 
 5. On the ‘Basics’ section, fill the parameters as below: 
 
    ![ws name.](media/25.png)
 
-
-    1) **Subscription**: Choose the default subscription
-
-    2) **Resource Group**: Choose the default pre-created Resource Group
-
-    3) **Host Pool**: WVD-HP-01 
-
-    4) **Location**:  Choose the default location
-
-    5) **Application Group Type**: RemoteApp 
-
-    6) **Application Group Name**: WVD-AG-01 
-
- 
-
-    Click on **‘Next:Assignments’**
+      - Subscription: *Select the default subscription*.
+      - Resource Group: *Select **WVD-RG** from the drop down*.
+      - Host Pool: **WVD-HP-01** (*This application group will be created under WVD-HP-01 hostpool*)
+      - Location: **East US**, *this should be same as the region of your resource group*.
+      - Application Group Type: **RemoteApp** 
+      - Application Group Name: **WVD-AG-01**
+      - Click on **Next:Assignments**
 
 6. In the assignments section, you can add the user whom should be given access to WVD solution on this application group. Click on the link Add Azure AD users or user groups. 
 
@@ -72,31 +63,23 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 10. In this window, choose the parameters as below: 
 
-    ![ws name.](media/30.png)
-
-
-    **Application Source:** Start Menu 
-    **Application:** Excel 
-
-    Leave rest of the parameters to be on default settings. 
-
-    Click on **Save**. 
-
+   - Application Source: **Start Menu**    
+   - Application: **Excel**
+   - Leave rest of the parameters to be on default settings and click on **Save**.
+   
+   ![ws name.](media/a34.png)
+ 
 11. Click on **Add Application** again. 
 
     ![ws name.](media/31.png)
 
 12. Choose the parameters as below: 
 
-    ![ws name.](media/32.png)
+   - Application Source: **Start Menu**    
+   - Application: **Word**   
+   - Leave rest of the parameters to be on default settings and click on **Save**.
 
-    **Application Source:** Start Menu 
-
-    **Application:** Word 
-
-    Leave rest of the parameters to be on default settings. 
-
-    Click on **Save**. 
+   ![ws name.](media/.png)
 
 13. Click on **Next:Workspace**. 
 
