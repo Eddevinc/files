@@ -6,55 +6,63 @@ WVD-Client is a remote desktop application through which we can connect to our w
 
 Now as we have published remote apps in previous exercises, now we will be accessing them using wvd-client.
 
+1. Download the **WVD Client** on your local machine from the following [**Link**](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-and-10) and install **Windows 64-bit** version by clicking on it.
+   
+   ![ws name.](media/a48.png)
+   
+   
+2. Then open the setup and click **Next** on the Welcome page of setup.
 
-1. Download the **WVD Client** on your local machine from the following [**Link**](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-and-10) and install it.
-   
-   ![ws name.](media/50.png)
-   
-   
-2. After installation, in your local machine go to **Start** and search for **Remote desktop** and open the application with exact icon as shown below.
+3. Check the agreement box and click on **Next**.
 
-   ![ws name.](media/51.png)
+4. On **Installation scope** window select **Install just for you** and then click on **Install**.
+
+   ![ws name.](media/wvd41.png)
+
+5. After installation, in your local machine go to **Start** and search for **Remote desktop** and open the application with exact icon as shown below.
+
+   ![ws name.](media/137.png)
    
    
-3. After the application opens click on **Subscribe with URL**.
+6. After the application opens click on **Subscribe with URL**. Then enter the following URL ```https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery``` and click on **Next**.
 
    ![ws name.](media/52.png)
   
   
-4. Enter the following URL **https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery** and click on **Next**.
+7. Enter your **credentials** to access the workspace.
 
-   ![ws name.](media/53.png)
+   - Username: *Put username* **WVD User-01** *which you copied in previous step (for example: **WVDUser-01@azurehol1055.onmicrosoft.com**). Then click on **Next**.*
    
-   
-5. Enter your **credentials** to access the workspace.
+   ![ws name.](media/wvd42.png)
 
-   ![ws name.](media/54.png)
+   - Password: **Azure1234567** *and click on* **Sign in**.
+
+   ![ws name.](media/wvd43.png)
    
    
-6. Make sure to **uncheck** Allow my organization to manage my device.
+8. Make sure to **uncheck** Allow my organization to manage my device.
 
    Click on **This app only**.
 
    ![ws name.](media/55.png)
    
    
-7. Now click on any of the applications to access it.
+10. Now click on any of the applications to access it.
 
    ![ws name.](media/56.png)
    
 
-8. Enter your **credentials** to access the Application.
+11. Enter your **credentials** to access the Application.
 
    ![ws name.](media/57.png)
    
 
-9. Wait for your application to connect.
+12. Wait for your application to connect.
 
    ![ws name.](media/58.png)
    
 
-10. Your Application will launch and will be ready to use.
+13. Your Application will launch and will be ready to use.
 
     ![ws name.](media/59.png)
     
