@@ -8,7 +8,7 @@ Each host pool may have one or more app groups. There are two types of app group
 
 ## **General Hierarchy**
 
-### **Hostpools***
+### **Hostpools**
 
 A host pool is a collection of Azure virtual machines that register to Windows Virtual Desktop as session hosts when you run the Windows Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience. 
 
@@ -51,3 +51,5 @@ A workspace is a logical grouping of application groups in Windows Virtual Deskt
 ### **End Users**
 
 After you've assigned users to their app groups, they can connect to a Windows Virtual Desktop deployment with any of the Windows Virtual Desktop clients. 
+
+Click on the **Next** button.  
