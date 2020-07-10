@@ -16,7 +16,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 2. You will be directed towards the Windows Virtual Desktop(Hereafter referred as WVD) management window.  
 
-  ![ws name.](media/64.png)
+   ![ws name.](media/64.png)
 
 
 3. Click on the **Application Group** tab. You will see the default Application Group there. Note that the type is ‘Desktop’. Also, it is associated with the Host Pool **WVD-HP-01** we created before and to the workspace **WVD-WS-01**. 
@@ -31,8 +31,6 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 5. On the ‘Basics’ section, fill the parameters as below: 
 
-   ![ws name.](media/25.png)
-
       - Subscription: *Select the default subscription*.
       - Resource Group: *Select **WVD-RG** from the drop down*.
       - Host Pool: **WVD-HP-01** (*This application group will be created under WVD-HP-01 hostpool*)
@@ -41,24 +39,28 @@ An application group of type ‘Desktop’ was created automatically while creat
       - Application Group Name: **WVD-AG-01**
       - Click on **Next:Assignments**
 
-6. In the assignments section, you can add the user whom should be given access to WVD solution on this application group. Click on the link Add Azure AD users or user groups. 
+   ![ws name.](media/72.png)
 
-   ![ws name.](media/26.png)
+6. In the assignments section, you can add the user whom should be given access to WVD solution on this application group. 
+
+7. Click on the **+Add Azure AD users or user groups**, type *wvd* in the search bar and then click on **WVD User-01** to select it.
+
+   ![ws name.](media/73.png)
 
 
-7. In the search box, copy and paste the username given in the ‘Lab Environments’ section in the Lab guide. Click **Select**. 
+7. Once selected the user will appear under selected items. Then click on **Select**. 
 
-   ![ws name.](media/27.png)
+   ![ws name.](media/74.png)
 
 
-8. Click on **Next:Applications** 
+8. Now click on **Next:Applications**. 
 
-   ![ws name.](media/28.png)
+   ![ws name.](media/75.png)
 
 
 9. On the **Applications** section, click on **Add Applications** to publish applications in the Session Host. 
 
-   ![ws name.](media/29.png)
+   ![ws name.](media/76.png)
 
 
 10. In this window, choose the parameters as below: 
@@ -71,7 +73,7 @@ An application group of type ‘Desktop’ was created automatically while creat
  
 11. Click on **Add Application** again. 
 
-    ![ws name.](media/31.png)
+   ![ws name.](media/31.png)
 
 12. Choose the parameters as below: 
 
@@ -79,41 +81,36 @@ An application group of type ‘Desktop’ was created automatically while creat
    - Application: **Word**   
    - Leave rest of the parameters to be on default settings and click on **Save**.
 
-   ![ws name.](media/.png)
+   ![ws name.](media/77.png)
 
-13. Click on **Next:Workspace**. 
+13. Now click on **Next:Workspace**. 
 
-    ![ws name.](media/33.png)
+   ![ws name.](media/78.png)
 
 14. In the Workspace section, you choose if the Application Group should be registered or not.  
 
-    ![ws name.](media/34.png)
+   - Register Application Group: **Yes **
+   - **WVD-WS-01** workspace will be selected by default, since the default ‘Desktop’ type application group on the same Session Host (**WVD-SH-01**) is registered to this workspace.
 
-    Register Application Group: **Yes **
-
-    The Workspace that was created before (**WVD-WS-01**) will be the default, since the default ‘Desktop’ type application group on the same Session Host (**WVD-SH-01**) is registered to this workspace. 
+   ![ws name.](media/79.png)
 
 15. Click on **Review + Create**
 
-    ![ws name.](media/35.png)
+   ![ws name.](media/35.png)
 
 
 16. You will get a provision to validate the settings in the validation page. If everything looks correct, click on **Create**. 
 
-    ![ws name.](media/36.png)
+   ![ws name.](media/80.png)
 
 
-17. Once the deployment is complete, click on **Go to Resource**. 
+17. Once the deployment is complete, open notifications and click on **Go to Resource**. 
 
-    ![ws name.](media/37.png)
-
-
-18. In the Application Group Window that comes up, click the Applications menu. 
-
-    ![ws name.](media/38.png)
+   ![ws name.](media/81.png)
 
 
-19. You will see that the applications are published in the application Group. 
+18. Now in the Application Group Window that comes up, click on **Applications menu** present under **Manage** and you will see that the applications are published in the application Group. 
 
-    ![ws name.](media/39.png)
+   ![ws name.](media/82.png)
 
+19. Click on the **Next** button.
