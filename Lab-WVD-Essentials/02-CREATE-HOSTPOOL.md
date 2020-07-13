@@ -85,9 +85,7 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
  **B**. Network and Security 
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(Choose from drop down)*
    - Leave all other values on default.
- 
-  ![ws name.](media/11.png)
- 
+  
  **C**. Domain and Administrator account 
 
   ![ws name.](media/save.png)
@@ -97,14 +95,7 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
    - Password: Azure1234567
    - Confirm Password: Azure1234567
 
-
-    **Specify Domain or Unit**: No 
-
-    **AD domain join UPN**: Provide the username from ‘Lab Environment’ Tab
-
-    **Password**: Provide the password from the ‘Lab Environment’ Tab
-
-    **Confirm Password**: Confirm the password from the ‘Lab Environment’ Tab
+  ![ws name.](media/a9.png)
    
 9. Click on Next:Workspace to proceed. 
 
