@@ -27,11 +27,11 @@ Now as we have published remote apps in previous exercise, now we will be access
 
 4. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: *Put odl username which can be obtained from lab environment page (for example: **odl_user_206342@azurehol1022.onmicrosoft.com**). Then click on **Next**.*
-   
-   - Password: *password of the environment* and click on **Sign in**.
+   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** 
+  
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
 
-   ![ws name.](media/a47.png)
+   ![ws name.](media/89.png)
       
 5. Your application will launch.
 
