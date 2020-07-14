@@ -84,18 +84,16 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
    
  **B**. Network and Security 
    - Subnet: **sessionhosts-subnet(10.0.1.0/24)** *(Choose from drop down)*
+   - Specify Domain or Unit: **No**
    - Leave all other values on default.
   
  **C**. Domain and Administrator account 
-
-  ![ws name.](media/save.png)
    
-   - Specify Domain or Unit: No
-   - AD domain join UPN: Paste username of **ODL User**,for example: **odl_user_206342@azurehol1022.onmicrosoft.com**.
-   - Password: Paste password of environment from Lab environment page.
-   - Confirm Password: Enter the password again
+   - AD domain join UPN: Paste your username **<inject key="AzureAdUserEmail" />**
+   - Password: Paste the password **<inject key="AzureAdUserPassword" />**
+   - Confirm Password: Enter the password again.
 
-  ![ws name.](media/a9.png)
+  ![ws name.](media/87.png)
    
 9. Click on Next:Workspace to proceed. 
 
