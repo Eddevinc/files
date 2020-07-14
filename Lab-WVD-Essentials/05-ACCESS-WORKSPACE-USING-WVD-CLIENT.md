@@ -54,7 +54,7 @@ Now as we have published remote apps in previous exercises, now we will be acces
 
 10. Enter your **credentials** to access the Application.
 
-   ![ws name.](media/57.png)
+   ![ws name.](media/89.png)
    
 
 11. Wait for your application to connect.
@@ -106,7 +106,7 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
 
 8. Enter your **credentials** to access the Desktop.
 
-   ![ws name.](media/61.png)
+   ![ws name.](media/89.png)
    
 
 9. Wait for your Desktop to connect.
