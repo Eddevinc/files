@@ -26,34 +26,35 @@ Now as we have published remote apps in previous exercises, now we will be acces
    
 6. After the application opens click on **Subscribe with URL**. Then enter the following URL ```https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery``` and click on **Next**.
 
-   ![ws name.](media/52.png)
+   ![ws name.](media/94.png)
   
   
 7. Enter your **credentials** to access the workspace.
 
-   - Username: *Put odl username which can be obtained from lab environment page (for example: **odl_user_206342@azurehol1022.onmicrosoft.com**). Then click on **Next**.*
+   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** Then click on **Next**.*
    
-   ![ws name.](media/wvd42.png)
+   ![ws name.](media/95.png)
 
-   - Password: *password of the environment* and click on **Sign in**.
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
-   ![ws name.](media/wvd43.png)
+   ![ws name.](media/96.png)
    
    
-8. Make sure to **uncheck** Allow my organization to manage my device.
-
-   Click on **This app only**.
+8. Make sure to **uncheck** Allow my organization to manage my device. Click on **This app only**.
 
    ![ws name.](media/55.png)
    
    
 9. Now click on any of the applications to access it.
 
-   ![ws name.](media/56.png)
+   ![ws name.](media/97.png)
    
 
 10. Enter your **credentials** to access the Application.
 
+   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** 
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
+   
    ![ws name.](media/89.png)
    
 
@@ -77,19 +78,23 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
    ![ws name.](media/51.png)
 
 
-2. After the application opens click on **Subscribe with URL**.
+2. Click on the ellipsis **...** then select **Unsubscribe** and click on **Continue** for **Are you sure** popup.
 
-   ![ws name.](media/52.png)
-  
-  
-3. Enter the following URL **https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery** and click on **Next**.
+   ![ws name.](media/99.png)
 
-   ![ws name.](media/53.png)
-   
-   
+3. Then click on **Subscribe with URL**. Enter the following URL ```https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery``` and click on **Next**.
+
+   ![ws name.](media/98.png)
+
 4. Enter your **credentials** to access the Workspace.
 
-   ![ws name.](media/54.png)
+   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** Then click on **Next**.*
+   
+   ![ws name.](media/95.png)
+
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
+
+   ![ws name.](media/96.png)
    
    
 5. Make sure to **uncheck** Allow my organization to manage my device.
@@ -101,21 +106,24 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
    
 6. Now Click on any of the Desktop to access it.
 
-   ![ws name.](media/60.png)
+   ![ws name.](media/100.png)
    
 
-8. Enter your **credentials** to access the Desktop.
+7. Enter your **credentials** to access the Desktop.
 
+   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** 
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
+   
    ![ws name.](media/89.png)
    
 
-9. Wait for your Desktop to connect.
+8. Wait for your Desktop to connect.
 
    ![ws name.](media/62.png)
    
 
-10. Your virtual Desktop will launch and it should be ready to use.
+9. Your virtual Desktop will launch and it should be ready to use.
         
     ![ws name.](media/63.png)   
      
- 11. Click on the **Next** button.   
+ 10. Click on the **Next** button.   
