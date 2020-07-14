@@ -46,11 +46,11 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
 
    - Max session Limit: **5**
       
-   > **Note:** Max session Limit limits the simultaneous number of users on the same session host.
+   >**Note:** Max session Limit limits the simultaneous number of users on the same session host.
      
    - Load Balancing Algorithm: **Breadth First**
       
-   > **Note:** Load Balancing Algorithm are of 2 types: *Breadth-first* and *Depth-first*. 
+   >**Note:** Load Balancing Algorithm are of 2 types: *Breadth-first* and *Depth-first*. 
    > - **Breadth-first** load balancing distributes new user sessions across all available session hosts in the host pool. 
    > - **Depth-first** load balancing distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold.
      
@@ -89,13 +89,13 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
   
  **C**. Domain and Administrator account 
    
-   - AD domain join UPN: Paste your username **<inject key="AzureAdUserEmail" />**
-   - Password: Paste the password **<inject key="AzureAdUserPassword" />**
-   - Confirm Password: Enter the password again.
+   - AD domain join UPN: *Paste your username* **<inject key="AzureAdUserEmail" />**
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
+   - Confirm Password: *Enter the password again.*
 
   ![ws name.](media/87.png)
    
-9. Click on Next:Workspace to proceed. 
+9. Click on **Next:Workspace** to proceed. 
 
 10. In the Workspace section, we need to specify if we need to register the default application group with a workspace. 
 
