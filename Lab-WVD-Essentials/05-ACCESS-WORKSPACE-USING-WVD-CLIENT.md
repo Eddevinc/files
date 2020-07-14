@@ -31,11 +31,11 @@ Now as we have published remote apps in previous exercises, now we will be acces
   
 7. Enter your **credentials** to access the workspace.
 
-   - Username: *Put username* **WVD User-01** *which you copied in previous step (for example: **WVDUser-01@azurehol1055.onmicrosoft.com**). Then click on **Next**.*
+   - Username: *Put odl username which can be obtained from lab environment page (for example: **odl_user_206342@azurehol1022.onmicrosoft.com**). Then click on **Next**.*
    
    ![ws name.](media/wvd42.png)
 
-   - Password: **Azure1234567** *and click on* **Sign in**.
+   - Password: *password of the environment* and click on **Sign in**.
 
    ![ws name.](media/wvd43.png)
    
