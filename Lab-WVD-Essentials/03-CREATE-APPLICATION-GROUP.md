@@ -84,7 +84,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 13. In the Workspace section, you choose if the Application Group should be registered or not.  
 
-   - Register Application Group: **Yes **
+   - Register Application Group: **Yes**
    - **WVD-WS-01** workspace will be selected by default, since the default ‘Desktop’ type application group on the same Session Host (**WVD-HP01-SH-01**) is registered to this workspace.
 
    ![ws name.](media/79.png)
