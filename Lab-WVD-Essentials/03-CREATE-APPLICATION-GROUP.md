@@ -31,7 +31,7 @@ An application group of type ‘Desktop’ was created automatically while creat
    
 5. Under **Manage** blade, Click on **Assignments** and then click on **+ Add**. Now in search window type *odl* and click on your **odl user** to select it, then click on **Select**.
 
-   ![ws name.](media/.png)   
+   ![ws name.](media/90.png)   
    
 6. Lets create a new Application Group of type ‘Remote App’.
 
