@@ -6,13 +6,13 @@ Now as we have published remote apps in previous exercise, now we will be access
 
 1. Use the link ```aka.ms/wvdarmweb``` and enter your **credentials** to login. 
 
-   - Username: *Put odl username which can be obtained from lab environment page (for example: **odl_user_206342@azurehol1022.onmicrosoft.com**). Then click on **Next**.*
+   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** Then click on **Next**.*
    
-   ![ws name.](media/wvd42.png)
+   ![ws name.](media/95.png)
 
-   - Password: *password of the environment* and click on **Sign in**.
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
-   ![ws name.](media/wvd43.png)
+   ![ws name.](media/96.png)
   
 
 2. Now you will be inside the WVD dashboard with all the Desktop and Applications visible. Click on any one of the applications to access it. 
@@ -41,9 +41,15 @@ Now as we have published remote apps in previous exercise, now we will be access
 
 In this task we will be accessing the desktop type application named *WVD-HP-01-DAG* created by default when we created *WVD-HP-01* host pool using browser.
 
-1. Use the link [**aka.ms/wvdarmweb**](aka.ms/wvdarmweb) and enter your credentials to login. 
+1. Use the link ```aka.ms/wvdarmweb``` and enter your credentials to login. 
 
-   ![ws name.](media/45.png)
+   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** Then click on **Next**.*
+   
+   ![ws name.](media/95.png)
+
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
+
+   ![ws name.](media/96.png)
 
 
 2. Now you will be inside the WVD dashboard with all the Desktop and Applications visible. Click on the **Desktop** to access it. 
