@@ -127,7 +127,7 @@ In this exercise we will be creating a host pool named *WVD-HP-01* of pooled typ
 
   ![ws name.](media/71.png)
 
-15. You will see that the **Hostpool WVD-HP-01** is created with 2 session hosts in it, and a default application group (of type Desktop).  
+15. You will see that the host pool **WVD-HP-01** is created with 2 session hosts in it, and a default application group (of type Desktop).  
 
   ![ws name.](media/85.png)
 
