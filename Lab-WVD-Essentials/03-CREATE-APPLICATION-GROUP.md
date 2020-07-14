@@ -7,7 +7,7 @@ As explained in the General Hierarchy section, Application Group is a logical gr
 
 ## **Task 1: Create Application Group**
 
-An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. Now in this task we will create a new application group of type ‘Remote App’ named *WVD-AG-01* and assign *wvduser01* to it. Then we will add two applications i.e *word* and *excel* to the application group.
+An application group of type ‘Desktop’ was created automatically while creating the Session Host in previous exercise. Now in this task we will create a new application group of type ‘Remote App’ named *WVD-AG-01* and assign *Odl user* to it. Then we will add two applications i.e *word* and *excel* to the application group.
 
 1. Navigate to Azure portal, then search for *Windows virtual* in search bar and select **Windows Virtual Desktop** from the suggestions.
 
@@ -90,7 +90,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 14. In the Workspace section, you choose if the Application Group should be registered or not.  
 
    - Register Application Group: **Yes **
-   - **WVD-WS-01** workspace will be selected by default, since the default ‘Desktop’ type application group on the same Session Host (**WVD-SH-01**) is registered to this workspace.
+   - **WVD-WS-01** workspace will be selected by default, since the default ‘Desktop’ type application group on the same Session Host (**WVD-HP01-SH-01**) is registered to this workspace.
 
    ![ws name.](media/79.png)
 
