@@ -6,11 +6,11 @@ Now as we have published remote apps in previous exercise, now we will be access
 
 1. Use the link ```aka.ms/wvdarmweb``` and enter your **credentials** to login. 
 
-   - Username: *Put username* **WVD User-01** *which you copied in previous step (for example: **WVDUser-01@azurehol1055.onmicrosoft.com**). Then click on **Next**.*
+   - Username: *Put odl username which can be obtained from lab environment page (for example: **odl_user_206342@azurehol1022.onmicrosoft.com**). Then click on **Next**.*
    
    ![ws name.](media/wvd42.png)
 
-   - Password: **Azure1234567** *and click on* **Sign in**.
+   - Password: *password of the environment* and click on **Sign in**.
 
    ![ws name.](media/wvd43.png)
   
@@ -27,9 +27,9 @@ Now as we have published remote apps in previous exercise, now we will be access
 
 4. Enter your **credentials** to access the application and click on **Submit**.
 
-   - Username: Put the username of **WVD User-01** which you copied in previous task (for example: **WVDUser-01@azurehol1055.onmicrosoft.com**)
+   - Username: *Put odl username which can be obtained from lab environment page (for example: **odl_user_206342@azurehol1022.onmicrosoft.com**). Then click on **Next**.*
    
-   - Password: **Azure1234567**
+   - Password: *password of the environment* and click on **Sign in**.
 
    ![ws name.](media/a47.png)
       
