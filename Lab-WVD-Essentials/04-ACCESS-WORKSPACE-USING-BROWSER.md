@@ -48,21 +48,25 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
 
 2. Now you will be inside the WVD dashboard with all the Desktop and Applications visible. Click on the **Desktop** to access it. 
 
-   ![ws name.](media/46.png)
+   ![ws name.](media/92.png)
 
 
 3. Click on **Allow** for the Prompt.
 
-   ![ws name.](media/47.png)
+   ![ws name.](media/93.png)
 
 
-4. Enter your **credentials** to access the application.
+4. Enter your **credentials** to access the application and click on **Submit**.
 
-   ![ws name.](media/48.png)
+   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** 
+  
+   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
+
+   ![ws name.](media/89.png)
 
 
 5. Your virtual Desktop will launch and it should be ready to use. 
 
    ![ws name.](media/49.png)
    
-
+6. Click on the **Next** button.
