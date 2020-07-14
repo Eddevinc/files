@@ -43,7 +43,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
 6. In the assignments section, you can add the user whom should be given access to WVD solution on this application group. 
 
-7. Click on the **+Add Azure AD users or user groups**, type *wvd* in the search bar and then click on **WVD User-01** to select it.
+7. Click on the **+Add Azure AD users or user groups**, type *odl* in the search bar and then click on your odl user to select it.
 
    ![ws name.](media/73.png)
 
