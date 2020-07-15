@@ -7,9 +7,7 @@
 
 In this exercise we will be creating a host pool named *WVD-HP-01* of pooled type and add two session hosts (virtual machines) i.e. *WVD-HP01-SH-0* and *WVD-HP01-SH-01*  then register them under a new workspace named *WVD-WS-01*.
 
-1. Login to the Azure portal using the credentials in the Lab Environments section. 
-
-2. Navigate to **Azure portal** and search for *Windows virtual* in the search bar and select **Windows Virtual Desktop** from the suggestions.
+1. On **Azure portal** search for *Windows virtual* in the search bar and select **Windows Virtual Desktop** from the suggestions.
 
   ![ws name.](media/a109.png)
  
