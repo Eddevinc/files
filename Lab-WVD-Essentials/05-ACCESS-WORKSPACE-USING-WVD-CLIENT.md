@@ -24,9 +24,9 @@ Now as we have published remote apps in previous exercises, now we will be acces
    ![ws name.](media/137.png)
    
    
-6. After the application opens click on **Subscribe with URL**. Then enter the following URL ```https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery``` and click on **Next**.
+6. After the application opens click on **Subscribe**.
 
-   ![ws name.](media/94.png)
+   ![ws name.](media/a49.png)
   
   
 7. Enter your **credentials** to access the workspace.
@@ -77,39 +77,14 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
 
    ![ws name.](media/51.png)
 
-
-2. Click on the ellipsis **...** then select **Unsubscribe** and click on **Continue** for **Are you sure** popup.
-
-   ![ws name.](media/99.png)
-
-3. Then click on **Subscribe with URL**. Enter the following URL ```https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery``` and click on **Next**.
-
-   ![ws name.](media/98.png)
-
-4. Enter your **credentials** to access the Workspace.
-
-   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** Then click on **Next**.*
-   
-   ![ws name.](media/95.png)
-
-   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
-
-   ![ws name.](media/96.png)
    
    
-5. Make sure to **uncheck** Allow my organization to manage my device.
-
-   Click on **Yes**.
-
-   ![ws name.](media/55.png)
-   
-   
-6. Now Click on any of the Desktop to access it.
+2. Now Click on **WVD-HP-01-DAG** Desktop to access it.
 
    ![ws name.](media/100.png)
    
 
-7. Enter your **credentials** to access the Desktop.
+3. Enter your **credentials** to access the Desktop.
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** 
    - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
@@ -117,13 +92,14 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
    ![ws name.](media/89.png)
    
 
-8. Wait for your Desktop to connect.
+4. Wait for your Desktop to connect.
 
    ![ws name.](media/62.png)
    
 
-9. Your virtual Desktop will launch and it should be ready to use.
+5. Your virtual Desktop will launch and it should be ready to use.
         
     ![ws name.](media/63.png)   
+    
      
- 10. Click on the **Next** button.   
+6. Click on the **Next** button.   
