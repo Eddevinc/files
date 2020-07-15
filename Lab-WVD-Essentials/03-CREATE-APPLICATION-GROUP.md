@@ -14,7 +14,7 @@ An application group of type ‘Desktop’ was created automatically while creat
    ![ws name.](media/a109.png)
 
 
-2. You will be directed towards the Windows Virtual Desktop(Hereafter referred as WVD) management window.  
+2. You will be directed towards the Windows Virtual Desktop management window.  
 
    ![ws name.](media/64.png)
 
@@ -24,7 +24,7 @@ An application group of type ‘Desktop’ was created automatically while creat
    ![ws name.](media/23.png)
    
    
-4. Click on **WVD-HP-01-DAG**.
+4. Click on **WVD-HP-01-DAG** application group.
 
    ![ws name.](media/91.png)
    
@@ -33,14 +33,14 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/90.png)   
    
-6. Lets create a new Application Group of type ‘Remote App’.
+6. Once done then create a new Application Group of type ‘Remote Application’.
 
-7. Now navigate back to the application group and click on the **+ Add** button. 
+7. For this navigate back to the **Application groups** and click on the **+ Add** button. 
 
    ![ws name.](media/a18.png)
 
 
-8. On the ‘Basics’ section, fill the parameters as below: 
+8. Under the *Basics* section, fill the parameters as mentioned below: 
 
       - Subscription: *Select the default subscription*.
       - Resource Group: *Select **WVD-RG** from the drop down*.
@@ -69,7 +69,7 @@ An application group of type ‘Desktop’ was created automatically while creat
    ![ws name.](media/76.png)
 
 
-13. In this window, choose the parameters as below: 
+13. In this window, choose the parameters as mentioned below: 
 
    - Application Source: **Start Menu**    
    - Application: **Excel**
@@ -81,7 +81,7 @@ An application group of type ‘Desktop’ was created automatically while creat
 
    ![ws name.](media/31.png)
 
-15. Choose the parameters as below: 
+15. Choose the parameters as mentioned below: 
 
    - Application Source: **Start Menu**    
    - Application: **Word**   
@@ -115,7 +115,7 @@ An application group of type ‘Desktop’ was created automatically while creat
    ![ws name.](media/81.png)
 
 
-23. Now in the Application Group Window that comes up, click on **Applications menu** present under **Manage** and you will see that the applications are published in the application Group. 
+23. Now in the Application Group Window that comes up, click on **Applications** present under **Manage** and you will see that the applications are published in the application Group. 
 
    ![ws name.](media/82.png)
 
