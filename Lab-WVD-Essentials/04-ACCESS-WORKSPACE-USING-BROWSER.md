@@ -17,7 +17,7 @@ Now as we have published remote apps in previous exercise, now we will be access
 
 2. Now you will be inside the WVD dashboard with all the Desktop and Applications visible. Click on any one of the applications to access it. 
 
-   ![ws name.](media/83.png)
+   ![ws name.](media/a46.png)
 
 
 3. Click on **Allow** for the prompt.
@@ -39,19 +39,11 @@ Now as we have published remote apps in previous exercise, now we will be access
 
 ## **Task 2: Access the published Desktop**
 
-In this task we will be accessing the desktop type application named *WVD-HP-01-DAG* created by default when we created *WVD-HP-01* host pool using browser.
-
-1. Use the link ```aka.ms/wvdarmweb``` and enter your credentials to login. 
-
-   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** Then click on **Next**.*
+1. Now on the top-left side click on **All Resources** and select **WVD-HP-01-DAG** Desktop.
    
-   ![ws name.](media/95.png)
-
-   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
-
-   ![ws name.](media/96.png)
-
-
+   ![ws name.](media/wvd53.png)
+   
+   
 2. Now you will be inside the WVD dashboard with all the Desktop and Applications visible. Click on the **Desktop** to access it. 
 
    ![ws name.](media/92.png)
