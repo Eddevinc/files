@@ -31,29 +31,29 @@ Now as we have published remote apps in previous exercises, now we will be acces
   
 7. Enter your **credentials** to access the workspace.
 
-   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** Then click on **Next**.*
+   - Username: **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
    ![ws name.](media/95.png)
 
-   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
+   - Password: **<inject key="AzureAdUserPassword" />** *and click on **Sign in**.*
 
    ![ws name.](media/96.png)
    
    
-8. Make sure to **uncheck** Allow my organization to manage my device. Click on **This app only**.
+8. Make sure to uncheck **Allow my organization to manage my device** and click on **This app only**.
 
    ![ws name.](media/55.png)
    
    
-9. Now click on any of the applications to access it.
+9. Now click on any of the applications you want to access. Here we are selecting **Excel**. 
 
    ![ws name.](media/97.png)
    
 
 10. Enter your **credentials** to access the Application.
 
-   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** 
-   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
+   - Username: **<inject key="AzureAdUserEmail" />** 
+   - Password: **<inject key="AzureAdUserPassword" />**
    
    ![ws name.](media/89.png)
    
@@ -68,7 +68,7 @@ Now as we have published remote apps in previous exercises, now we will be acces
     ![ws name.](media/59.png)
     
     
-13. Click on the **X** icon on the top right corner to close word.
+13. You can close this session now.
 
 
 ## **Task 2: Access the Workspace Desktop using WVD Client**
@@ -88,8 +88,8 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
 
 3. Enter your **credentials** to access the Desktop.
 
-   - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** 
-   - Password: *Paste the password* **<inject key="AzureAdUserPassword" />**
+   - Username: **<inject key="AzureAdUserEmail" />** 
+   - Password: **<inject key="AzureAdUserPassword" />**
    
    ![ws name.](media/89.png)
    
