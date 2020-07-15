@@ -68,6 +68,8 @@ Now as we have published remote apps in previous exercises, now we will be acces
     ![ws name.](media/59.png)
     
     
+13. Click on the **X** icon on the top right corner to close word.
+
 
 ## **Task 2: Access the Workspace Desktop using WVD Client**
 
