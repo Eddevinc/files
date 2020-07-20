@@ -30,3 +30,11 @@ According to Gartner by 2023, 30% of all the on-premises VDI users will be acces
 The yearly *VDI Like A Pro survey* lists Windows Virtual Desktop as number one as a response. Remote working is more popular than ever due to the current circumstances and further circumstances are still unexpected. This yearly research is a global initiative for and by the entire EUC community and answers independently how the market looks like.
 
 ![ws name.](media/g3.png)
+
+
+The WVD Essentials lab you just completed gives a complete walk-through on Windows Virtual Desktop essentials, making you confident enough to create and manage windows virtual desktop as needed in the future.
+
+It ensures that you are knowledgeable enough to set up a single session and multi-session Windows 10 deployment that delivers scalability, virtualize Microsoft 365 Apps for enterprise and optimize it to run in multi-user virtual scenarios, virtualize both desktops and applications, Manage desktops and apps with a unified management experience.
+
+
+
