@@ -65,7 +65,7 @@ Now as we have published remote apps in previous exercises, now we will be acces
 
 12. Your Application will launch and will be ready to use.
 
-    ![ws name.](media/111.png)
+   ![ws name.](media/111.png)
     
     
 13. You can close this session now.
@@ -101,7 +101,7 @@ In this task we will be accessing the desktop type application named *WVD-HP-01-
 
 5. Your virtual Desktop will launch and it should be ready to use.
         
-    ![ws name.](media/63.png)   
+   ![ws name.](media/63.png)   
     
      
 6. Click on the **Next** button.   
